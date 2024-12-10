@@ -1,0 +1,87 @@
+﻿  cw2.cpp
+  cw2i.cpp
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(56,10): error C3668: 'Chef::DisplayStaffInfo': method with override specifier 'override' did not override any base class methods
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(87,13): error C2065: 'staff': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(90,13): error C2065: 'staff': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(93,13): error C2065: 'staff': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(100,13): error C2065: 'staff': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(150,41): error C2512: 'Chef': no appropriate default constructor available
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(49,7):
+      see declaration of 'Chef'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(237,10): error C2280: 'Menu::Menu(void)': attempting to reference a deleted function
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(232,1):
+      compiler has generated 'Menu::Menu' here
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(232,1):
+      'Menu::Menu(void)': function was implicitly deleted because a data member 'Menu::ownerObj' has either no appropriate default constructor or overload resolution was ambiguous
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\cw2i.cpp(199,11):
+      see declaration of 'Menu::ownerObj'
+  
+  example.cpp
+  new2.cpp
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(115,10): error C2065: 'Order': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(115,2): error C2923: 'std::vector': 'Order' is not a valid template type argument for parameter '_Ty'
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(115,10):
+      see declaration of 'Order'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(115,2): error C2976: 'std::vector': too few template arguments
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(201,16): error C2061: syntax error: identifier 'Order'
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(120,74): error C2512: 'std::vector': no appropriate default constructor available
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(123,137): error C2512: 'std::vector': no appropriate default constructor available
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(132,30): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(132,23):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(132,23):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1871,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(132,30):
+      while trying to match the argument list '()'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1895,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1885,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(134,4):
+      while trying to match the argument list '(std::vector, int)'
+  
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(203,20): error C2065: 'order': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(347,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(368,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(381,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(390,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(400,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(482,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(844,3): error C2065: 'Order': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(844,9): error C2146: syntax error: missing ';' before identifier 'order'
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(844,9): error C3861: 'order': identifier not found
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(845,21): error C2065: 'order': undeclared identifier
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\new2.cpp(859,21): warning C4018: '<': signed/unsigned mismatch
+  newwww.cpp
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\newwww.cpp(44,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\newwww.cpp(160,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\newwww.cpp(373,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\saina\OneDrive - University of South Wales\year1\programming Y1\Term 2\CS2\cw2\cw2\newwww.cpp(421,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
